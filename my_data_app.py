@@ -64,7 +64,7 @@ def scraper_plusieurs_pages():
     st.markdown("<h2 style='text-align: center; color: black;'>SCRAPER LES DONNEES DE COIN-AFRIQUE</h1>", unsafe_allow_html=True)
     st.markdown("""
     Cette partie permet de télécharger les données des articles (vêtements et chaussures pour hommes et enfants) sur coin-afrique
-    * **Libraries python:** base64, pandas, streamlit, selenium, plotly
+    * **Libraries python:** pandas, streamlit, selenium, plotly
     * **Sources:**
     """)
     st.markdown("""
@@ -81,10 +81,10 @@ def scraper_plusieurs_pages():
     # instantiate chrome with the defined options
     driver = webdriver.Chrome(options=options)
     # Définir les Urls
-    url_1 = "https://sn.coinafrique.com/categorie/vetements-homme",
-    url_2 =  "https://sn.coinafrique.com/categorie/chaussures-homme",
-    url_3 = "https://sn.coinafrique.com/categorie/vetements-enfants",
-    url_4 = "https://sn.coinafrique.com/categorie/chaussures-enfants",
+    url_1 = "https://sn.coinafrique.com/categorie/vetements-homme"
+    url_2 =  "https://sn.coinafrique.com/categorie/chaussures-homme"
+    url_3 = "https://sn.coinafrique.com/categorie/vetements-enfants"
+    url_4 = "https://sn.coinafrique.com/categorie/chaussures-enfants"
         
 
     # afficher les urls à sélectionner
